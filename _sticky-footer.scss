@@ -1,0 +1,9 @@
+@mixin sticky-footer-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@mixin sticky-footer-container {
+  flex: 1;
+}

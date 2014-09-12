@@ -1,0 +1,10 @@
+$border-color: #ddd;
+$border: 1px solid $border-color;
+
+$orientations: top right bottom left;
+
+@each $orientation in $orientations {
+  .bd-#{$orientation} {
+    border-#{$orientation}: $border;
+  }
+}

@@ -1,0 +1,77 @@
+$gt-l: 2em;
+$gt-m: 1em;
+$gt-s: 0.5em;
+$gt-xs: 0.25em;
+
+// Unconditional Float Direction //
+.pull-l {
+  float: left;
+}
+
+.pull-r {
+  float: right;
+}
+
+// Mobile float left
+.mbl-f-l {
+  float: left;
+}
+
+// Mobile float right
+.mbl-f-r {
+  float: right;
+}
+
+// Desktop float right
+.f-r {
+  @include media($medium-screen) {
+    float: right;
+  }
+}
+
+// Desktop float left
+.f-l {
+  @include media($medium-screen) {
+    float: right;
+  }
+}
+
+// Unconditional Display //
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-none {
+  display: none;
+}
+
+// Mobile Block
+.mbl-b {
+  display: block;
+
+  @include media($medium-screen) {
+    display: initial;
+  }
+}
+
+// Mobi
+.mbl-t-c {
+  text-align: center;
+
+  @include media($medium-screen) {
+    text-align: initial;
+  }
+
