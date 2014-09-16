@@ -14,11 +14,11 @@ $orientations: top right bottom left;
   }
 
   .m-#{$orientation}-l{
-    margin-#{$orientation}: $gt-m;
+    margin-#{$orientation}: $gt-l;
   }
 
   .m-#{$orientation}-xl{
-    margin-#{$orientation}: $gt-m;
+    margin-#{$orientation}: $gt-xl;
   }
 }
 

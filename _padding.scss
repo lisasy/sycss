@@ -2,22 +2,22 @@ $orientations: top right bottom left;
 
 @each $orientation in $orientations {
   .p-#{$orientation}-xs{
-    margin-#{$orientation}: $gt-xs;
+    padding-#{$orientation}: $gt-xs;
   }
 
   .p-#{$orientation}-s{
-    margin-#{$orientation}: $gt-s;
+    padding-#{$orientation}: $gt-s;
   }
 
   .p-#{$orientation}-m{
-    margin-#{$orientation}: $gt-m;
+    padding-#{$orientation}: $gt-m;
   }
 
   .p-#{$orientation}-l{
-    margin-#{$orientation}: $gt-m;
+    padding-#{$orientation}: $gt-l;
   }
 
   .p-#{$orientation}-xl{
-    margin-#{$orientation}: $gt-m;
+    padding-#{$orientation}: $gt-xl;
   }
 }
