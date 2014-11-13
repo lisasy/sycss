@@ -1,0 +1,14 @@
+{
+  "name": "sycss",
+  "version": "0.0.1",
+  "homepage": "https://github.com/lisasy/sycss",
+  "description": "SyCSS is a simple personal CSS framework.",
+  "main": "scss/_sycss.scss",
+  "keywords": [
+    "CSS"
+  ],
+  "authors": [
+    "Lisa Sy"
+  ],
+  "license": "MIT"
+}
