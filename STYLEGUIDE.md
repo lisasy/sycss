@@ -1,3 +1,15 @@
+### Abbreviated Property Names
+
+```
+
+bd // border
+d  // display
+ft // font
+m  // margin
+pd // padding
+
+```
+
 ### Sizing Variables
 
 ```
@@ -10,22 +22,11 @@
 
 ### Direction
 
-`... -t`: `top`
+```
 
-`... -r`: `right`
+... -t // top
+... -r // right
+... -b // bottom
+... -l // left
 
-`... -b`: `bottom`
-
-`... -l`: `left`
-
-### Abbreviated Property Names
-
-`bd`: `border`
-
-`d`: `display`
-
-`ft`: `font`
-
-`m`: `margin`
-
-`pd`: `padding`
+```
